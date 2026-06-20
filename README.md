@@ -48,13 +48,11 @@ The final interactive reporting structure delivers multi-layered business metric
 
 ## 📁 Repository Structure
 ```text
-├── Data/
-│   ├── raw_customer_data.csv
-│   └── cleaned_customer_data.csv     # Exported after Pandas processing
-├── Notebooks/
-│   └── data_cleaning_pipeline.ipynb   # Jupyter notebook script
-├── SQL_Queries/
-│   └── customer_behavior_queries.sql  # Source .sql script files
-├── Dashboard/
-│   └── Customer_Behaviour_Model.pbix  # Final Power BI working file
-└── README.md
+├── Business Problem Document.pdf       # Project requirement guide
+├── raw_customer_behaviour_file         # Raw customer dataset (Input)
+├── cleaned_customer_data.csv           # Processed clean data after Pandas pipeline
+├── data_cleaning.ipynb                 # Jupyter Notebook with Python cleaning steps
+├── customer_behavior_sql_queries.sql   # PostgreSQL database analysis queries
+├── first_project_on_powerbi.pbix       # Final interactive Power BI working model
+└── first_project_on_powerbi.pdf        # Static PDF export of the executive dashboard
+└── README.md                           # Documentation and business insights profile
